@@ -1,0 +1,7 @@
+@font-face {
+    -fx-font-family:
+}
+
+* {
+    -fx-font-family: 'Roboto', sans-serif;
+}

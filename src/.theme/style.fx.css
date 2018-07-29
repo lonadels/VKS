@@ -1,2 +1,8 @@
-/* JavaFX CSS Style with -fx- prefix */
+@import "font.fx.css";
+@import "light.fx.css";
+@import "colors.fx.css";
+@import "button.fx.css";
 
+.root {
+    -fx-background: -default;
+}
