@@ -10,14 +10,27 @@ class AppModule extends AbstractModule
     
     /** @var app\modules\Main main class */
     public $main;
+    
+    /** @var app\modules\threads\Threads threads */
+    public $threads;
+    
+    /** @var app\modules\threads\Threads threads */
+    public $updater;
 
     function __construct()
     {    
         # Advancement debug processor
-        $this->debug = new Debug;
-        $this->debug->log("Waiting for application create...");
+        $this->debug = new debug\Debug($this);
+        
+        # Simplified threading
+        $this->threads = new threads\Threads($this);
+        
+        # Simplified threading
+        $this->updater = new updater\Updater($this);
     
-        new Thread(function(){
+        $this->threads->t(function(){
+        
+            $this->debug->log("Waiting for application create...");
         
             # Waiting for application loading
             while( ! Application::isCreated() );
@@ -25,6 +38,6 @@ class AppModule extends AbstractModule
             $this->debug->log("Application was created.");
             $this->main = new Main($GLOBALS['argv']);
       
-        })->start();
+        });
     }
 }
