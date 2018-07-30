@@ -1,5 +1,5 @@
 <?php
-namespace app\modules;
+namespace app\modules\debug;
 
 use php\time\Time;
 
@@ -28,7 +28,18 @@ class Debug
         print "[{$timestamp}][{$this->types[$type]}] {$text}\n";    
     }
     
-    function __construct(){
-        $this->log("Logger was started");
+    /**
+     * Log when class construct
+     * 
+     * @param string class name
+     */
+    public function construct(string $class)
+    {
+        $this->log("Class {$class} was construct"); 
+    }
+    
+    function __construct()
+    {
+        $this->construct(__CLASS__);
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1532902661476">
+<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1532908846631">
   <tree>
     <expanded>
     <path src=""/>
@@ -8,14 +8,23 @@
       <path src="/src/app"/>
       <path src="/src/app/forms"/>
       <path src="/src/app/modules"/>
+      <path src="/src/app/modules/debug"/>
+      <path src="/src/app/modules/VKAPI"/>
+      <path src="/src/app/modules/VKAPI/Methods"/>
+      <path src="/src/app/modules/VKAPI/Objects"/>
     </expanded>
   </tree>
   <openedFiles>
   <file src="VKStats.dnproject"/>
     <file src="src/app/forms/MainForm.php"/>
-    <file src="src/app/modules/AppModule.php"/>
-    <file src="src/app/modules/Debug.php"/>
-    <file selected="1" src="src/app/modules/Main.php"/>
+    <file selected="1" src="src/app/modules/AppModule.php"/>
+    <file src="src/app/modules/VKAPI/APIProcessor.php"/>
+    <file src="src/app/Main.php"/>
+    <file src="src/app/modules/debug/Debug.php"/>
+    <file src="src/app/modules/VKAPI/Methods/Messages.php"/>
+    <file src="src/app/modules/VKAPI/Objects/User.php"/>
+    <file src="src/app/modules/VKAPI/MethodProcessor.php"/>
+    <file src="src/app/modules/VKAPI/UsersProcessor.php"/>
   </openedFiles>
   <files/>
   <behaviours>
