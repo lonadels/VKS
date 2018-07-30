@@ -12,18 +12,20 @@ class MethodProcessor extends app\modules\VKAPI\APIProcessor
     /**
      * main function of processing methods VK API
      * 
-     * @param string category of methods (messages, photos, etc.)
+     * @param object category of methods (messages, photos, etc.)
      * @param string method name (getConversations, post, etc.)
      * @param array method params (see VK API Documentation)
      * 
      * @return object result returned by server
      */
-    private function method(string $category, string $method, array $params): object
+    private function method(object $categoryClass, string $method, array $params): object
     {
+        $category = get_class($categoryClass);
+    
         $params["v"] = self::API_VER;
         $params["access_token"] = $this->users->getCurrent()->token;
     
-        $ch = new jURL($url);
+        $ch = new jURL(self::API_URL . "{$category}.{method}");
         $ch->setPostData($params);
         $ch->exec(function($result, $ch){
             var_dump($result);

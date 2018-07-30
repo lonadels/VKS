@@ -13,6 +13,6 @@ class Messages extends app\modules\VKAPI\APIProcessor
      */
     public function getConversations(array $params): object 
     {
-        return $this->method(__CLASS__, __FUNCTION__, $params);
+        return $this->method($this, __FUNCTION__, $params);
     }
 }

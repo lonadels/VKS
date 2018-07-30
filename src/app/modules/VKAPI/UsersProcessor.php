@@ -17,6 +17,7 @@ class UsersProcessor
     public function add(int $id, object $data) 
     {
         $user = new app\modules\VKAPI\Objects\User;
+        
         $user->id = $data->id;
         $user->screen = $data->screen;
         $user->first_name = $data->first_name;
