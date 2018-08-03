@@ -8,3 +8,9 @@
     -fx-pref-height: 32;
     -fx-padding: 3 23 3 23;
 }
+
+.button.outline {
+    -fx-background-color: -primary, -default;
+    -fx-background-insets: 0, 2;
+    -fx-text-fill: -primary;
+}

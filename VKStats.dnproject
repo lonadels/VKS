@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1532945188160">
+<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533331270065">
   <tree>
     <expanded>
     <path src=""/>
       <path src="/src"/>
+      <path src="/src/.data"/>
       <path src="/src/.theme"/>
       <path src="/src/app"/>
       <path src="/src/app/forms"/>
       <path src="/src/app/modules"/>
-      <path src="/src/app/modules/updater"/>
-      <path src="/src/app/modules/debug"/>
       <path src="/src/app/modules/VKAPI"/>
       <path src="/src/app/modules/VKAPI/Methods"/>
       <path src="/src/app/modules/VKAPI/Objects"/>
+      <path src="/src/app/modules/updater"/>
+      <path src="/src/app/modules/debug"/>
       <path src="/src/app/modules/threads"/>
-      <path src="/src/.data"/>
-      <path src="/vendor"/>
-      <path src="/vendor/develnext.bundle.jurl.jURLBundle"/>
     </expanded>
   </tree>
   <openedFiles>
@@ -31,8 +29,11 @@
     <file src="src/app/modules/VKAPI/UsersProcessor.php"/>
     <file src="src/app/modules/updater/Updater.php"/>
     <file src="src/app/modules/AppModule.php"/>
-    <file selected="1" src="src/app/modules/threads/Threads.php"/>
+    <file src="src/app/modules/threads/Threads.php"/>
     <file src="src/app/modules/AbstractClass.php"/>
+    <file selected="1" src="src/.theme/button.fx.css"/>
+    <file src="src/.theme/colors.fx.css"/>
+    <file src="src/.theme/style.fx.css"/>
   </openedFiles>
   <files/>
   <behaviours>
