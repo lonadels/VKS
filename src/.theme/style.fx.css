@@ -5,4 +5,19 @@
 
 .root {
     -fx-background: -default;
+    -fx-backround-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.root.transparent {
+    -fx-background: transparent;
+}
+
+.fragment-pane {
+    -fx-backround-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.windowShadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, .1), 15, 0, 0, 4);
 }

@@ -11,7 +11,7 @@ class Messages extends app\modules\VKAPI\APIProcessor
      * @param array array of params
      * @return array Returns an object with the following fields
      */
-    public function getConversations(array $params): object 
+    public function getConversations(array $params = []): object 
     {
         return $this->method($this, __FUNCTION__, $params);
     }
