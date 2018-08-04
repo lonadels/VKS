@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472" prefWidth="680" styleClass="transparent ">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="680" styleClass="transparent ">
   <children>
     <Rectangle arcHeight="8" arcWidth="8" fill="#ffffff" focusTraversable="false" height="416" id="rect" layoutX="24" layoutY="32" stroke="#334db3" strokeType="INSIDE" strokeWidth="0" styleClass="windowShadow " width="632"/>
     <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="44" layoutY="48" prefHeight="18" prefWidth="56" styleClass="label bold " text="VKStats" textAlignment="LEFT" underline="false" wrapText="false">
+    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="24" layoutY="32" prefHeight="48" prefWidth="632" style="-fx-padding: 11 16;" styleClass="label bold " text="VKStats" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
         <Font name="System Bold" size="13"/>
       </font>
@@ -14,7 +14,7 @@
     <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="616" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
       <children/>
       <styleClass xmlns:fx="http://javafx.com/fxml">
-        <String fx:value="svg-icon"/>
+        <String fx:value="s"/>
         <String fx:value="svg"/>
         <String fx:value="close"/>
       </styleClass>
@@ -23,10 +23,10 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
-    <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="584" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="584" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" opacity="0.5" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
       <children/>
       <styleClass xmlns:fx="http://javafx.com/fxml">
-        <String fx:value="svg-icon"/>
+        <String fx:value="sd"/>
         <String fx:value="svg"/>
         <String fx:value="maximize"/>
       </styleClass>
@@ -38,7 +38,7 @@
     <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="546" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 12 10;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
       <children/>
       <styleClass xmlns:fx="http://javafx.com/fxml">
-        <String fx:value="svg-icon"/>
+        <String fx:value="s"/>
         <String fx:value="svg"/>
         <String fx:value="minimize"/>
       </styleClass>

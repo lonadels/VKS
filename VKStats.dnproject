@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533417733292">
+<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533419202803">
   <tree>
     <expanded>
     <path src=""/>

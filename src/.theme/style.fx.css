@@ -1,8 +1,8 @@
 @import "font.fx.css";
 @import "light.fx.css";
 @import "colors.fx.css";
-@import "button.fx.css";
 @import "svg.fx.css";
+@import "button.fx.css";
 
 .root {
     -fx-background: -default;
@@ -19,10 +19,10 @@
     -fx-fill: -default;
 }
 
-.svg-icon {
+.s, .sd {
     -fx-background-color: -default-inv;
 }
 
-.svg-icon:hover {
+.s:hover {
     -fx-background-color: -primary;
 }
