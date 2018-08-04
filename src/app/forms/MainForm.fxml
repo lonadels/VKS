@@ -11,5 +11,7 @@
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
     <org.develnext.jphp.ext.javafx.support.control.CanvasEx focusTraversable="false" height="32" id="svg_theme_close" layoutX="616" layoutY="40" styleClass="" width="32"/>
     <Data cursor="DEFAULT" enabled="1" id="data-svg_theme_close" visible="1"/>
+    <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment" layoutX="24" layoutY="80" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="360" prefWidth="632" spacing="0" styleClass="fragment-pane "/>
+    <Data content="Menu" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
   </children>
 </AnchorPane>

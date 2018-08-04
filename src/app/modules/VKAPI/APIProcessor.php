@@ -25,4 +25,13 @@ class APIProcessor
     /** @var app\modules\VKAPI\UsersProcessor users */
     public $users;
     
+    /** 
+     * @param string user login 
+     * @param string user password 
+     */
+    public function auth($login, $password)
+    {
+        
+    }
+    
 }

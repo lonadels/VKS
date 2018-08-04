@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533381665526">
+<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533382466519">
   <tree>
     <expanded>
     <path src=""/>
@@ -22,7 +22,7 @@
   <openedFiles>
   <file src="VKStats.dnproject"/>
     <file src="src/app/forms/MainForm.php"/>
-    <file src="src/app/modules/VKAPI/APIProcessor.php"/>
+    <file selected="1" src="src/app/modules/VKAPI/APIProcessor.php"/>
     <file src="src/app/Main.php"/>
     <file src="src/app/modules/debug/Debug.php"/>
     <file src="src/app/modules/VKAPI/Methods/Messages.php"/>
@@ -35,7 +35,7 @@
     <file src="src/app/modules/AbstractClass.php"/>
     <file src="src/.theme/button.fx.css"/>
     <file src="src/.theme/colors.fx.css"/>
-    <file selected="1" src="src/.theme/style.fx.css"/>
+    <file src="src/.theme/style.fx.css"/>
     <file src="src/.theme/font.fx.css"/>
     <file src="src/.theme/light.fx.css"/>
     <file src="src/app/modules/forms/ModalForm.php"/>
@@ -43,6 +43,8 @@
     <file src="src/app/modules/forms/SVGLoader.php"/>
     <file src="src/app/modules/forms/FormsManager.php"/>
     <file src="src/app/modules/forms/Preloader.php"/>
+    <file src="src/app/forms/Menu.php"/>
+    <file src="src/app/forms/Auth.php"/>
   </openedFiles>
   <files/>
   <behaviours>
