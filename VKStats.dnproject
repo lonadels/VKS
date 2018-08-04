@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533415457329">
+<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1533417733292">
   <tree>
     <expanded>
     <path src=""/>
@@ -21,9 +21,9 @@
   </tree>
   <openedFiles>
   <file src="VKStats.dnproject"/>
-    <file src="src/app/forms/MainForm.php"/>
+    <file selected="1" src="src/app/forms/MainForm.php"/>
     <file src="src/app/modules/VKAPI/APIProcessor.php"/>
-    <file selected="1" src="src/app/Main.php"/>
+    <file src="src/app/Main.php"/>
     <file src="src/app/modules/debug/Debug.php"/>
     <file src="src/app/modules/VKAPI/Methods/Messages.php"/>
     <file src="src/app/modules/VKAPI/Objects/User.php"/>
@@ -44,6 +44,7 @@
     <file src="src/app/modules/forms/Preloader.php"/>
     <file src="src/app/forms/Menu.php"/>
     <file src="src/app/forms/Auth.php"/>
+    <file src="src/.theme/svg.fx.css"/>
   </openedFiles>
   <files/>
   <behaviours>

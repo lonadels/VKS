@@ -2,6 +2,7 @@
 @import "light.fx.css";
 @import "colors.fx.css";
 @import "button.fx.css";
+@import "svg.fx.css";
 
 .root {
     -fx-background: -default;
@@ -16,4 +17,12 @@
 .windowShadow {
     -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, .1), 15, 0, 0, 4);
     -fx-fill: -default;
+}
+
+.svg-icon {
+    -fx-background-color: -default-inv;
+}
+
+.svg-icon:hover {
+    -fx-background-color: -primary;
 }

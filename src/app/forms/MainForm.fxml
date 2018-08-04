@@ -11,12 +11,41 @@
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
     <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment" layoutX="24" layoutY="80" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="360" prefWidth="632" spacing="0" styleClass="fragment-pane "/>
     <Data content="Menu" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
-    <Panel backgroundColor="#003300" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="624" layoutY="48" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="16" prefWidth="16" style="-fx-shape: &quot;M 8.71875 7.28125 L 7.28125 8.71875 L 14.5625 16 L 7.28125 23.28125 L 8.71875 24.71875 L 16 17.4375 L 23.28125 24.71875 L 24.71875 23.28125 L 17.4375 16 L 24.71875 8.71875 L 23.28125 7.28125 L 16 14.5625 Z&quot;;" styleClass="" titleColor="#000000" titleOffset="0" titlePosition="TOP_LEFT">
+    <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="616" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
       <children/>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="svg-icon"/>
+        <String fx:value="svg"/>
+        <String fx:value="close"/>
+      </styleClass>
+      <titleFont>
+        <Font name="System Regular" size="13"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+    <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="584" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
+      <children/>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="svg-icon"/>
+        <String fx:value="svg"/>
+        <String fx:value="maximize"/>
+      </styleClass>
       <titleFont>
         <Font name="System Regular" size="13"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panelAlt" layoutX="546" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 12 10;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
+      <children/>
+      <styleClass xmlns:fx="http://javafx.com/fxml">
+        <String fx:value="svg-icon"/>
+        <String fx:value="svg"/>
+        <String fx:value="minimize"/>
+      </styleClass>
+      <titleFont>
+        <Font name="System Regular" size="13"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
   </children>
 </AnchorPane>
