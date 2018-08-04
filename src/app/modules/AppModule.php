@@ -14,8 +14,11 @@ class AppModule extends AbstractModule
     /** @var app\modules\threads\Threads threads */
     public $threads;
     
-    /** @var app\modules\threads\Threads threads */
+    /** @var app\modules\updater\Updater updater */
     public $updater;
+    
+    /** @var app\modules\forms\Preloader preloader */
+    private $preloader;
 
     function __construct()
     {    
@@ -27,6 +30,10 @@ class AppModule extends AbstractModule
         
         # Simplified threading
         $this->updater = new updater\Updater($this);
+        
+        uiLater(function(){
+           ($this->preloader = new \app\modules\forms\Preloader)->show(); 
+        });
     
         $this->threads->t(function(){
         
@@ -37,6 +44,10 @@ class AppModule extends AbstractModule
                        
             $this->debug->log("Application was created.");
             $this->main = new Main($GLOBALS['argv']);
+              
+            uiLater(function(){
+                $this->preloader->hide(); 
+            });    
       
         });
     }
