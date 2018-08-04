@@ -24,6 +24,7 @@ class AppModule extends AbstractModule
     {    
         # Advancement debug processor
         $this->debug = new debug\Debug($this);
+        $this->debug->setExceptionHandler();
         
         # Simplified threading
         $this->threads = new threads\Threads($this);
@@ -49,8 +50,6 @@ class AppModule extends AbstractModule
                 $this->preloader->hide(); 
             });    
             
-            
-      
         });
     }
 }
