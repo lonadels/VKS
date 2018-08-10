@@ -13,9 +13,9 @@ class Main
         if( in_array("-u", $args) )
             message("Update");
           
-        //uiLater(function(){
+        uiLater(function(){
             app()->form("MainForm")->show(); 
-        //});    
+        });    
           
     }
 }
