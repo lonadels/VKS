@@ -2,6 +2,8 @@
     -default: rgb(255, 255, 255);
     -default-inv: rgb(0, 0, 0);
     
+    -dk-gray: rgb(25, 25, 25);
+    
     -primary: rgb(81,139,203); // #518BCB
     
     -default-text: rgb(0, 0, 0);

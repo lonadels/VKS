@@ -1,6 +1,7 @@
 * {
     -fx-font-family: 'Roboto', sans-serif;
     -fx-text-fill: -default-text;
+    -fx-font-smoothing-type: gray;
 }
 
 .bold {

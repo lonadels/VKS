@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360" prefWidth="520" styleClass="">
   <children>
-    <LabelEx AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="8" alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" opacity="0.5" prefHeight="344" prefWidth="504" styleClass="label " text="Здесь пока ничего нет, но когда-нибудь появится" textAlignment="LEFT" underline="false" wrapText="false">
-      <font>
-        <Font name="System Regular" size="13"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <VBox AnchorPane.bottomAnchor="8" AnchorPane.leftAnchor="8" AnchorPane.rightAnchor="8" AnchorPane.topAnchor="8" alignment="CENTER" focusTraversable="false" id="vbox" layoutX="8" layoutY="8" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="344" prefWidth="504" spacing="20" styleClass="">
+      <children>
+        <HBox alignment="CENTER" focusTraversable="false" id="hbox" layoutX="0" layoutY="112" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="84" prefWidth="504" spacing="5" styleClass="">
+          <children>
+            <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel" layoutX="220" layoutY="0" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="84" prefWidth="64" style="-fx-background-color: -dk-gray;" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+              <children/>
+              <styleClass xmlns:fx="http://javafx.com/fxml">
+                <String fx:value="sd"/>
+                <String fx:value="svg"/>
+                <String fx:value="empty-doc"/>
+              </styleClass>
+              <titleFont>
+                <Font name="System Regular" size="13"/>
+              </titleFont>
+            </Panel>
+            <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+          </children>
+        </HBox>
+        <Data cursor="DEFAULT" enabled="1" id="data-hbox" visible="1"/>
+        <LabelEx alignment="CENTER" autoSize="true" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="104" layoutY="216" opacity="0.5" prefHeight="15.1328125" prefWidth="296.5244140625" styleClass="label " text="Здесь пока ничего нет, но ты идешь нахуй&#10;" textAlignment="LEFT" underline="false" wrapText="false">
+          <font>
+            <Font name="System Regular" size="13"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+      </children>
+    </VBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-vbox" visible="1"/>
   </children>
 </AnchorPane>

@@ -15,12 +15,13 @@
 }
 
 .windowShadow {
-    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 1), 15, 0, 0, 4);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, .13), 16, 0, 0, 5);
     -fx-fill: -default;
 }
 
 .s, .sd {
     -fx-background-color: -default-inv;
+    -fx-border-width: 0;
 }
 
 .s:hover {

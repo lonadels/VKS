@@ -33,7 +33,7 @@ class AppModule extends AbstractModule
         $this->updater = new updater\Updater($this);
         
         uiLater(function(){
-           ($this->preloader = new \app\modules\forms\Preloader)->show(); 
+           //($this->preloader = new \app\modules\forms\Preloader)->show(); 
         });
     
         $this->threads->t(function(){
@@ -47,7 +47,7 @@ class AppModule extends AbstractModule
             $this->main = new Main($GLOBALS['argv']);
               
             uiLater(function(){
-                $this->preloader->hide(); 
+                //$this->preloader->hide(); 
             });    
             
         });

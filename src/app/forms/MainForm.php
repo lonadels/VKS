@@ -15,4 +15,12 @@ class MainForm extends AbstractForm
         app()->shutdown();
     }
 
+    /**
+     * @event panelAlt.click-Left 
+     */
+    function doPanelAltClickLeft(UXMouseEvent $e = null)
+    {    
+        $this->iconified = true; 
+    }
+
 }
