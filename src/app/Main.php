@@ -1,6 +1,8 @@
 <?php
 namespace app;
 
+use gui;
+use gui;
 use Exception;
 use app;
 
@@ -14,7 +16,18 @@ class Main
             message("Update");
           
         uiLater(function(){
-            app()->form("MainForm")->show(); 
+            $mainForm = app()->form("MainForm");
+                    
+            /*$mainForm->add( $cm = new UXContextMenu ); 
+            
+            $cm->items->add($delete = new UXMenuItem('Delete')); 
+            $delete->on('action', function(){ 
+                pre("Ты пошёл нахуй!"); 
+            }); */
+            
+
+            $mainForm->show(); 
+            
         });    
           
     }

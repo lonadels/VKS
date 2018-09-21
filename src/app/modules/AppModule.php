@@ -48,7 +48,7 @@ class AppModule extends AbstractModule
               
             uiLater(function(){
                 //$this->preloader->hide(); 
-            });    
+            });  
             
         });
     }

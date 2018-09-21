@@ -1,7 +1,9 @@
 @import "font.fx.css";
-@import "light.fx.css";
-@import "colors.fx.css";
 @import "svg.fx.css";
+
+@import "colors.fx.css";
+@import "light.fx.css";
+
 @import "button.fx.css";
 
 .root {
@@ -15,7 +17,7 @@
 }
 
 .windowShadow {
-    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, .13), 16, 0, 0, 5);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, .15), 18, 0, 0, 4);
     -fx-fill: -default;
 }
 
