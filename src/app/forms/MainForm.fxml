@@ -5,12 +5,12 @@
     <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
     <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="24" layoutY="32" prefHeight="48" prefWidth="632" style="-fx-padding: 11 16; -fx-font-family: 'Roboto Bold';" styleClass="label " text="VKStats" textAlignment="LEFT" underline="false" wrapText="false">
       <font>
-        <Font name="System Bold" size="13"/>
+        <Font name="System Bold" size="12"/>
       </font>
     </LabelEx>
     <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
     <FragmentPane alignment="CENTER" focusTraversable="false" id="fragment" layoutX="24" layoutY="80" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="360" prefWidth="632" spacing="0" styleClass="fragment-pane "/>
-    <Data content="Menu" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
+    <Data content="Auth" cursor="DEFAULT" enabled="1" id="data-fragment" visible="1"/>
     <Panel backgroundColor="#000000" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel3" layoutX="616" layoutY="40" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="32" style="-fx-background-insets: 10;;" titleColor="#000000" titleOffset="-999" titlePosition="TOP_LEFT">
       <children/>
       <styleClass xmlns:fx="http://javafx.com/fxml">
@@ -19,7 +19,7 @@
         <String fx:value="close"/>
       </styleClass>
       <titleFont>
-        <Font name="Roboto" size="13"/>
+        <Font name="System Regular" size="13"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
@@ -31,7 +31,7 @@
         <String fx:value="maximize"/>
       </styleClass>
       <titleFont>
-        <Font name="Roboto" size="13"/>
+        <Font name="System Regular" size="13"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
@@ -43,7 +43,7 @@
         <String fx:value="minimize"/>
       </styleClass>
       <titleFont>
-        <Font name="Roboto" size="13"/>
+        <Font name="System Regular" size="13"/>
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>

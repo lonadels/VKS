@@ -1,0 +1,41 @@
+.text-field {
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, -default;
+    -fx-background-radius: 0, 0, 0, 0;
+
+    -fx-box-border: none;
+    -fx-focus-color: -fx-control-inner-background;
+    -fx-faint-focus-color: -fx-control-inner-background;
+    -fx-text-box-border: -fx-control-inner-background;
+    -fx-border-width: 0;
+}
+
+.text-field .content {
+    -fx-padding: 8 0;
+    -fx-background-color: transparent, -default, transparent, -default;
+}
+
+.text-field:focused .content {
+    -fx-background-color: transparent, -default, transparent, -default;
+}
+
+.text-field{
+    -fx-text-fill: -dk-gray;
+    -fx-background-color: -gray, -default;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0;
+    -fx-prompt-text-fill: -gray;
+    -fx-background-radius: 0;
+}
+
+.text-field:hover {
+    -fx-background-color: -primary, -default;
+    -fx-background-insets: 0, 0 0 1 0;
+}
+
+.text-field:focused {
+    -fx-text-fill: -dk-primary;
+    -fx-background-color: -primary, -default;
+    -fx-background-insets: 0, 0 0 2 0;
+    -fx-prompt-text-fill: -gray;
+}

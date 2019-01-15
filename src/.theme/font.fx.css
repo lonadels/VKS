@@ -1,38 +1,38 @@
 @font-face {
     -fx-font-family: 'Roboto';
-    src: url('/.data/fonts/ROBOTO-REGULAR.TTF'); 
+    src: url('/.fonts/Roboto-Regular.ttf'); 
 }
 
 @font-face {
     -fx-font-family: 'Roboto Thin';
-    src: url('/.data/fonts/ROBOTO-THIN.TTF'); 
+    src: url('/.fonts/Roboto-Thin.ttf'); 
 }
 
 @font-face {
     -fx-font-family: 'Roboto Medium';
-    src: url('/.data/fonts/ROBOTO-MEDIUM.TTF'); 
+    src: url('/.fonts/Roboto-Medium.ttf'); 
 }
 
 @font-face {
     -fx-font-family: 'Roboto Black';
-    src: url('/.data/fonts/ROBOTO-BLACK.TTF'); 
+    src: url('/.fonts/Roboto-Black.ttf'); 
 }
 
 @font-face {
     -fx-font-family: 'Roboto Bold';
-    src: url('/.data/fonts/ROBOTO-BOLD.TTF'); 
+    src: url('/.fonts/Roboto-Bold.ttf'); 
 }
 
 * {
     -fx-font-family: 'Roboto', sans-serif;
     -fx-text-fill: -default-text;
-    //-fx-font-smoothing-type: gray;
+    -fx-font-smoothing-type: gray;
 }
 
 .root {
     -fx-font-family: 'Roboto', sans-serif;
     -fx-text-fill: -default-text;
-    //-fx-font-smoothing-type: gray;
+    -fx-font-smoothing-type: gray;
 }
 
 .text {

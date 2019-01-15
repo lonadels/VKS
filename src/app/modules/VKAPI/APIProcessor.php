@@ -8,7 +8,7 @@ class APIProcessor
 {
 
     /** @var float VK API version */
-    const API_VERSION = 5.80;
+    const API_VERSION = 5.92;
     
     /** @var string VK API Method Server URL */
     const API_URL = "api.vk.com/method";

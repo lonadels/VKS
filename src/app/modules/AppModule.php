@@ -29,7 +29,7 @@ class AppModule extends AbstractModule
         # Simplified threading
         $this->threads = new threads\Threads($this);
         
-        # Simplified threading
+        # Update system
         $this->updater = new updater\Updater($this);
         
         uiLater(function(){

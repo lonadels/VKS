@@ -4,14 +4,14 @@
 @import "colors.fx.css";
 @import "light.fx.css";
 
-@import "button.fx.css";
+@import "components.fx.css";
 
 .root {
     -fx-background: -default;
     -fx-backround-radius: 20;
     -fx-border-radius: 20;
 }
-
+ 
 .root.transparent {
     -fx-background: transparent;
 }

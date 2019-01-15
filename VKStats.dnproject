@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1537548003635">
+<project author="lonadels" authorOS="Linux" createdAt="1532891346002" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="VKStats" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1547519154179">
   <tree>
     <expanded>
     <path src=""/>
       <path src="/src"/>
       <path src="/src/.data"/>
-      <path src="/src/.data/fonts"/>
       <path src="/src/.data/img"/>
       <path src="/src/.theme"/>
       <path src="/src/app"/>
@@ -37,15 +36,16 @@
     <file src="src/.theme/button.fx.css"/>
     <file src="src/.theme/colors.fx.css"/>
     <file src="src/.theme/style.fx.css"/>
-    <file src="src/.theme/font.fx.css"/>
+    <file selected="1" src="src/.theme/font.fx.css"/>
     <file src="src/.theme/light.fx.css"/>
     <file src="src/app/modules/forms/ModalForm.php"/>
     <file src="src/app/modules/forms/Dialog.php"/>
     <file src="src/app/modules/forms/FormsManager.php"/>
     <file src="src/app/modules/forms/Preloader.php"/>
-    <file selected="1" src="src/app/forms/Menu.php"/>
     <file src="src/app/forms/Auth.php"/>
     <file src="src/.theme/svg.fx.css"/>
+    <file src="src/.theme/textarea.fx.css"/>
+    <file src="src/.theme/components.fx.css"/>
   </openedFiles>
   <files/>
   <behaviours>
